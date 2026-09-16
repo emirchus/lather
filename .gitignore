@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode build products
+build/
+DerivedData/
+*.o
+*.LinkFileList
+
+# Xcode user-specific state (breaks sharing between machines/Xcode versions)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (unused today, ignored in case they're adopted later)
+Pods/
+Carthage/Build/
+
+# Obj-C/Swift specific
+*.hmap
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Instruments traces
+*.trace
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
