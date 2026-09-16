@@ -11,7 +11,9 @@ import SwiftUI
 struct latherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 1100, height: 700)
     }
 }
